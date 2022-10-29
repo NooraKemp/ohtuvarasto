@@ -1,3 +1,9 @@
+.vscode
+.DS_Store
+.coverage
 .pytest_cache
+htmlcov
+coverage.xml
 __pycache__
-*.tmp
+*.py[cod]
+*$py.class
