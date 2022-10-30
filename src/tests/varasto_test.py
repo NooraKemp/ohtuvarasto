@@ -75,4 +75,4 @@ class TestVarasto(unittest.TestCase):
         self.varasto.ota_varastosta(10)
 
         # ei saa olla negatiivinen arvo, pitäisi olla 0
-        self.assertAlmostEqual(self.varasto.saldo, 8)
+        self.assertAlmostEqual(self.varasto.saldo, 0)
